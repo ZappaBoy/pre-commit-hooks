@@ -61,6 +61,10 @@ Check for files that contain merge conflict strings.
 #### `check-shebang-scripts-are-executable`
 Checks that scripts with shebangs are executable.
 
+#### `check-stepdown-rule`
+Check [Stepdown Rule](https://dzone.com/articles/the-stepdown-rule) in python files. 
+Stepdown Rule increases code readability from top to bottom, descending one level of abstraction per function.
+
 #### `check-symlinks`
 Checks for symlinks which do not point to anything.
 

@@ -73,6 +73,12 @@
     entry: check-merge-conflict
     language: python
     types: [text]
+-   id: check-stepdown-rule
+    name: check stepdown rule
+    description: checks stepdown rules for correctness.
+    entry: check-stepdown-rule
+    language: python
+    types: [ python ]
 -   id: check-symlinks
     name: check for broken symlinks
     description: checks for symlinks which do not point to anything.
